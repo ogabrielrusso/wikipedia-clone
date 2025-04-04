@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #202122;
+    line-height: 1.6;
+    font-size: 0.875em;
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+}
+
+.logo {
+    max-width: 135px;
+    margin-left: 1em;
+}
+
+nav.main-nav {
+    background-color: #f8f9fa;
+    width: 12em;
+    padding: 1em;
+    border-right: 1px solid #a2a9b1;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+}
+
+nav.main-nav li {
+    margin-bottom: 0.5em;
+}
+
+nav.main-nav a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+nav.main-nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 1em 2em;
+    background-color: #fff;
+    border: 1px solid #a2a9b1;
+    border-radius: 0.2em;
+}
+
+aside {
+    width: 22em;
+    padding: 1em;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    border-bottom: 1px solid #a2a9b1;
+    font-size: 1.8em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.2em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    border-bottom: 1px solid #a2a9b1;
+    font-size: 1.5em;
+    margin: 1em 0 0.6em;
+    padding-bottom: 0.2em;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    font-size: 1.2em;
+    margin: 1em 0 0.6em;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 0.8em;
+}
+
+.hatnote {
+    font-style: italic;
+    color: #5a5a5a;
+    padding: 0.1em 0;
+    margin-bottom: 1em;
+    font-size: 0.875em;
+}
+
+.infobox {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    margin: 0 0 1em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    width: 22em;
+    font-size: 0.875em;
+}
+
+.infobox caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.2em;
+}
+
+.infobox-image {
+    text-align: center;
+    padding: 0.4em;
+}
+
+.infobox-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.infobox th {
+    vertical-align: top;
+    text-align: left;
+    padding: 0.2em 0.4em;
+    width: 33%;
+    background-color: #eaecf0;
+}
+
+.infobox td {
+    vertical-align: top;
+    padding: 0.2em 0.4em;
+}
+
+.topcs {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 0.5em;
+    display: table;
+    margin: 1em 0;
+}
+
+.topcs-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.topcs ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+.topcs li {
+    margin: 0.2em 0;
+}
+
+.topcs a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.topcs a:hover {
+    text-decoration: underline;
+}
+
+.references {
+    font-size: 0.875em;
+}
+
+ol.references {
+    padding-left: 2em;
+}
+
+.references li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.thumbinner {
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0.5em 0;
+}
+
+.thumbimage {
+    border: 1px solid #c8ccd1;
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbcaption {
+    text-align: left;
+    padding: 0.3em 0 0.1em;
+}
+
+.thumb {
+    margin: 0.5em 0;
+    width: 100%;
+}
+
+.thumb.tright {
+    float: right;
+    clear: right;
+    margin-left: 1.4em;
+    width: 240px;
+}
+
+.mw-headline {
+    font-weight: normal;
+}
+
+.catlinks {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 0.3em 0.6em;
+    margin-top: 1em;
+}
+
+.catlinks ul {
+    display: inline;
+    list-style: none;
+}
+
+.catlinks li {
+    display: inline;
+    border-left: 1px solid #a2a9b1;
+    padding: 0 0.5em;
+}
+
+.catlinks li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav.main-nav {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #a2a9b1;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .infobox {
+        float: none;
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+}
+
+table.wikitable {
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+}
+
+table.wikitable>tr>th,
+table.wikitable>tr>td,
+table.wikitable>*>tr>th,
+table.wikitable>*>tr>td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+
+table.wikitable>tr>th,
+table.wikitable>*>tr>th {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.mw-editsection {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 1em;
+    vertical-align: baseline;
+    line-height: 1em;
+}
+
+.mw-editsection a {
+    color: #0645ad;
+}
